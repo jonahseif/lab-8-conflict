@@ -13,6 +13,7 @@ library(tidyverse)
 # Hexbin plot
 ggplot(data = storms, aes(x = pressure, y = wind)) +
 	geom_hex() +
-  scale_fill_gradient(low = "orange", high = "purple")
+  scale_fill_gradient(low = "orange", high = "purple")+
+  theme_minimal()
 ```
 
